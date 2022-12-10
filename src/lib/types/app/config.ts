@@ -22,6 +22,7 @@ export type ThemeType =
   | 'moon'
   | 'whale'
   | 'madness'
+  | 'rebel'
 
 export interface Theme {
   textContent: string
@@ -65,6 +66,7 @@ export interface ChainOptions {
   chainID: string
   lcd: string
   fcd: string
+  api: string
   mantle: string
   walletconnectID: number
 }

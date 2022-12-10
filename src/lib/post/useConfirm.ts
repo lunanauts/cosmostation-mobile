@@ -8,8 +8,8 @@ import {
   Tx,
   TxInfo,
   Wallet,
-} from '@terra-money/terra.js'
-import { SignMode } from '@terra-money/terra.proto/cosmos/tx/signing/v1beta1/signing'
+} from '@terra-rebels/terra.js'
+import { SignMode } from '@terra-rebels/terra.proto/cosmos/tx/signing/v1beta1/signing'
 import {
   ConfirmProps,
   ConfirmPage,

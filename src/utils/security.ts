@@ -33,6 +33,8 @@ const runningEmulator = async (): Promise<boolean> => {
  * Android only
  */
 const incorrectFingerprint = async (): Promise<boolean> => {
+  return false
+
   if (Platform.OS === 'ios') return false
 
   try {

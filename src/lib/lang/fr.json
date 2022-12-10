@@ -80,7 +80,7 @@
       "Select wallet": "Sélectionner un portefeuille",
       "Access with ledger": "S'identifier avec Ledger",
       "Browse with address": "S'identifier avec une address",
-      "Download Terra Station": "Télécharger Terra Station"
+      "Download Rebel Station": "Télécharger Rebel Station"
     },
 
     "Common": {
@@ -94,7 +94,7 @@
       "Quickly glance through your address": "Jetez un coup d'œil rapide à votre adresse",
 
       "How can I create an wallet?": "Comment créer un portefeuille ?",
-      "If you want to create an wallet, please download <0>Terra Station for Windows/MacOS</0>. We don't support creating an wallet for Terra Station web due to the security reasons.": "Si vous souhaitez créer un portefeuille, merci de télécharger <0>Terra Station pour Windows/macOS.</0> La création d'un portefeuille sur Terra Station web n'est pas prise en charge pour des raisons de sécurité.",
+      "If you want to create an wallet, please download <0>Rebel Station for Windows/MacOS</0>. We don't support creating an wallet for Rebel Station web due to the security reasons.": "Si vous souhaitez créer un portefeuille, merci de télécharger <0>Rebel Station pour Windows/macOS.</0> La création d'un portefeuille sur Rebel Station web n'est pas prise en charge pour des raisons de sécurité.",
 
       "Connection required": "Connexion requise.",
       "This page shows data for a specific address. To access the page, please <0>connect</0>.": "Cette page affiche les données pour une address spécifique. Pour accéder à cette page, merci de <0>vous connecter</0>.",
@@ -116,7 +116,7 @@
 
       "{{word}} is an invalid word": "{{word}} est un mot invalide",
       "What if I lost my seed phrase?": "Et si je perdais ma phrase d'amorce?",
-      "We cannot recover your information for you. If you lose your seed phrase it's GONE FOREVER. Terra Station does not store your mnemonic.": "Nous ne pouvons pas recouvrer vos informations pour vous. Si vous perdez votre phrase d'amorce, elle sera perdu POUR TOUJOURS. Terra Station ne la sauvegarde pas.",
+      "We cannot recover your information for you. If you lose your seed phrase it's GONE FOREVER. Rebel Station does not store your mnemonic.": "Nous ne pouvons pas recouvrer vos informations pour vous. Si vous perdez votre phrase d'amorce, elle sera perdu POUR TOUJOURS. Rebel Station ne la sauvegarde pas.",
       "I have securely <0>WRITTEN DOWN MY SEED</0>. I understand that lost seeds cannot be recovered.": "J'ai bien <0>ÉCRIT MA PHRASE D'AMORCE</0>. Je comprends que les phrases d'amorce perdues ne peuvent pas être récupérées.",
 
       "Select address to recover": "Sélectionnez l'adresse à recouvrer",
@@ -125,14 +125,14 @@
       "Undelegated": "Non délégué",
       "No balance": "Pas de solde",
       "Wallet recovered successfully!": "Portefeuille recouvré avec succès!",
-      "Welcome back to Terra Station.": "Bienvenue sur Terra Station.",
+      "Welcome back to Rebel Station.": "Bienvenue sur Rebel Station.",
 
       "Confirm your seed": "Confirmez votre phrase d'amorce",
       "{{index}} word": "Mot numéro {{index}}",
       "Select or type": "Sélectionnez ou tapez",
       "Create a wallet": "Créer un portefeuille",
       "Wallet created!": "Portefeuille créé!",
-      "Welcome aboard to Terra Station.": "Bienvenue sur Terra Station.",
+      "Welcome aboard to Rebel Station.": "Bienvenue sur Rebel Station.",
       "Explore the Terra Network": "Explorez le réseau Terra"
     },
 

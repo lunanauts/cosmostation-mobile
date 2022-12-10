@@ -1,5 +1,5 @@
-import { AccAddress, MsgExecuteContract } from '@terra-money/terra.js'
-import { Coin, Coins } from '@terra-money/terra.js'
+import { AccAddress, MsgExecuteContract } from '@terra-rebels/terra.js'
+import { Coin, Coins } from '@terra-rebels/terra.js'
 import axios from 'axios'
 import { ChainOptions } from '../types'
 

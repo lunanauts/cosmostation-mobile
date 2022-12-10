@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { useQuery } from 'react-query'
 import axios, { AxiosError } from 'axios'
 import BigNumber from 'bignumber.js'
-import { OracleParams, ValAddress } from '@terra-money/terra.js'
+import { OracleParams, ValAddress } from '@terra-rebels/terra.js'
 import { TerraValidator } from 'types/validator'
 import { TerraProposalItem } from 'types/proposal'
 import { queryKey, RefetchOptions } from '../query'
@@ -28,7 +28,7 @@ export const useTerraAPIURL = (network?: string) => {
   const { chain } = useConfig()
   return {
     mainnet: 'https://phoenix-api.terra.dev',
-    classic: 'https://api.terra.dev',
+    classic: 'https://api.terrarebels.net',
     testnet: 'https://pisco-api.terra.dev',
   }[network ?? chain.current.name]
 }

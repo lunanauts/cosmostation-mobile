@@ -3,7 +3,7 @@ require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 require_relative '../node_modules/react-native-unimodules/cocoapods.rb'
 
-target 'TerraStation' do
+target 'RebelStation' do
   use_unimodules!(exclude: [
     'expo-file-system',
     'unimodules-file-system-interface',

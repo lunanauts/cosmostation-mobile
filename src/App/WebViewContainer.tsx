@@ -21,7 +21,7 @@ import AppStore from 'stores/AppStore'
 import { User } from 'lib/types'
 import WalletConnectStore from 'stores/WalletConnectStore'
 import TransportBLE from '@ledgerhq/react-native-hw-transport-ble'
-import { LedgerKey } from '@terra-money/ledger-terra-js'
+import { LedgerKey } from '@terra-rebels/ledger-terra-js'
 import {
   LCDClient,
   CreateTxOptions,
@@ -29,7 +29,7 @@ import {
   Msg,
   SignatureV2,
   SignDoc,
-} from '@terra-money/terra.js'
+} from '@terra-rebels/terra.js'
 import { settings } from 'utils/storage'
 import { useConfig, useIsClassic } from 'lib'
 import useNetworks from 'hooks/useNetworks'
@@ -64,7 +64,7 @@ interface DeviceInterface {
   id: string
 }
 
-const uri = 'https://mobile.station.terra.money'
+const uri = 'https://mobile.station.terrarebels.net'
 
 export const WebViewContainer = ({
   user,
@@ -748,7 +748,7 @@ export const WebViewContainer = ({
           const id = req.id
           const method = req.method
           const params = req.params[0]
-          
+
           if (method === 'post' || method === 'signBytes') {
             webviewInstance.current?.postMessage(
               JSON.stringify({
@@ -818,7 +818,7 @@ export const WebViewContainer = ({
       renderLoading={() => (
         <View style={styles.splashContainer}>
           <Image
-            source={images.terraStation}
+            source={images.rebelStation}
             style={{
               resizeMode: 'contain',
               alignSelf: 'center',
@@ -870,7 +870,7 @@ const styles = StyleSheet.create({
   splashContainer: {
     height: '100%',
     width: '100%',
-    backgroundColor: '#1f42b4',
+    backgroundColor: '#1a1a1a',
     alignContent: 'center',
     justifyContent: 'center',
   },

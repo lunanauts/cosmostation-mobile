@@ -81,7 +81,11 @@ import com.android.build.OutputFile
  */
 
 project.ext.react = [
-    enableHermes: true,  // clean and rebuild if changing
+    entryFile: "index.js",
+    bundleAssetName: "index.android.bundle",
+    bundleInDebug: true,
+    bundleInRelease: true,
+    enableHermes: true
 ]
 
 apply from: "../../node_modules/react-native/react.gradle"
@@ -142,13 +146,13 @@ android {
     }
 
     defaultConfig {
-        applicationId "money.terra.station"
+        applicationId "net.terrarebels.station"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 20000002
-        versionName "2.0.0"
+        versionCode 100
+        versionName "1.0.0"
         multiDexEnabled true
-        setProperty('archivesBaseName', renameArtifact('station-mobile', versionCode))
+        setProperty('archivesBaseName', renameArtifact('rebel-station', versionCode))
         missingDimensionStrategy 'react-native-camera', 'general'
     }
     splits {

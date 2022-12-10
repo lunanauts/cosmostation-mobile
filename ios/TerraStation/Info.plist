@@ -26,10 +26,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>terrastation</string>
+			<string>rebelstation</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>terrastation</string>
+				<string>rebelstation</string>
 			</array>
 		</dict>
 		<dict>

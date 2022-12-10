@@ -82,7 +82,7 @@
         "Select wallet": "Выберите кошелёк",
         "Access with ledger": "Подключить Ledger",
         "Browse with address": "Просмотр по адресу",
-        "Download Terra Station": "Скачать Terra Station"
+        "Download Rebel Station": "Скачать Rebel Station"
 
       },
 
@@ -97,7 +97,7 @@
         "Quickly glance through your address": "Быстро просмотреть свой адрес",
 
         "How can I create an wallet?": "Как я могу создать кошелёк?",
-        "If you want to create an wallet, please download <0>Terra Station for Windows/MacOS</0>. We don't support creating an wallet for Terra Station web due to the security reasons.": "Если вы хотите создать кошелёк, загрузите <0> Terra Station для Windows / MacOS </0>. Мы не поддерживаем создание кошелька для веб-сайта Terra Station из соображений безопасности.",
+        "If you want to create an wallet, please download <0>Rebel Station for Windows/MacOS</0>. We don't support creating an wallet for Rebel Station web due to the security reasons.": "Если вы хотите создать кошелёк, загрузите <0> Rebel Station для Windows / MacOS </0>. Мы не поддерживаем создание кошелька для веб-сайта Rebel Station из соображений безопасности.",
 
         "Connection required": "Требуется подключение",
         "This page shows data for a specific address. To access the page, please <0>connect</0>.": "На этой странице показаны данные для определенного адреса. Чтобы получить доступ к странице, пожалуйста, <0> подключитесь </0>.",
@@ -119,7 +119,7 @@
 
         "{{word}} is an invalid word": "{{palabra}} неверное слово",
         "What if I lost my seed phrase?": "Что, если я потеряю свою семенную фразу?",
-        "We cannot recover your information for you. If you lose your seed phrase it's GONE FOREVER. Terra Station does not store your mnemonic.": "Мы не можем восстановить вашу информацию для вас. Если вы потеряете свою семенную фразу, она уйдет навсегда. Terra Station не хранит вашу мнемонику.",
+        "We cannot recover your information for you. If you lose your seed phrase it's GONE FOREVER. Rebel Station does not store your mnemonic.": "Мы не можем восстановить вашу информацию для вас. Если вы потеряете свою семенную фразу, она уйдет навсегда. Rebel Station не хранит вашу мнемонику.",
         "I have securely <0>WRITTEN DOWN MY SEED</0>. I understand that lost seeds cannot be recovered.": "Я надежно <0> ЗАПИСАЛ МОЮ SEED ФРАЗУ</0>. Я понимаю, что потерянная seed фраза не подлежит возврату.",
         "Select address to recover": "Выберите адрес для восстановления",
         "Vested": "Приобретенный",
@@ -127,14 +127,14 @@
         "Undelegated": "Неделегированный",
         "No balance": "Нет баланса",
         "Wallet recovered successfully!": "кошелёк успешно восстановлен!",
-        "Welcome back to Terra Station.": "Добро пожаловать на станцию ​​Терра.",
+        "Welcome back to Rebel Station.": "Добро пожаловать на станцию ​​Терра.",
 
         "Confirm your seed": "Подтвердите свою SEED фразу",
         "{{index}} word": "слово {{index}}",
         "Select or type": "Выберите слово",
         "Create a wallet": "Создать кошелёк",
         "Wallet created!": "кошелёк создан!",
-        "Welcome aboard to Terra Station.": "Добро пожаловать на борт станции Terra.",
+        "Welcome aboard to Rebel Station.": "Добро пожаловать на борт станции Terra.",
         "Explore the Terra Network": "Изучите сеть Terra"
       },
 

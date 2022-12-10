@@ -8,7 +8,7 @@ import useBank from '../api/useBank'
 import useForm from '../hooks/useForm'
 import validateForm from './validateForm'
 import { isAvailable, getFeeDenomList } from './validateConfirm'
-import { Coins, MsgDeposit } from '@terra-money/terra.js'
+import { Coins, MsgDeposit } from '@terra-rebels/terra.js'
 import { useIsClassic } from 'lib'
 
 interface Values {

@@ -1,4 +1,4 @@
-import { Coin } from '@terra-money/terra.js'
+import { Coin } from '@terra-rebels/terra.js'
 import axios from 'axios'
 import { UTIL } from 'consts'
 import { Dictionary } from 'ramda'

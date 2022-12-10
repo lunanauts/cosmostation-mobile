@@ -10,7 +10,7 @@ export type AssetIconProps = {
   name?: string
 }
 
-const ASSET = 'https://assets.terra.money/icon'
+const ASSET = 'https://assets.terrarebels.net/icon'
 
 const AssetIcon = (props: AssetIconProps): ReactElement => {
   const isClassic = useIsClassic()

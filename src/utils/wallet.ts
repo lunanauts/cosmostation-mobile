@@ -1,4 +1,4 @@
-import { MnemonicKey } from '@terra-money/terra.js'
+import { MnemonicKey } from '@terra-rebels/terra.js'
 import { encrypt, decrypt } from './crypto'
 import _ from 'lodash'
 

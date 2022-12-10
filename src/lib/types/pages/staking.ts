@@ -1,4 +1,4 @@
-import { Validator, UnbondingDelegation, Delegation, Rewards } from '@terra-money/terra.js'
+import { Validator, UnbondingDelegation, Delegation, Rewards } from '@terra-rebels/terra.js'
 import { QueryObserverBaseResult } from 'react-query'
 
 import {

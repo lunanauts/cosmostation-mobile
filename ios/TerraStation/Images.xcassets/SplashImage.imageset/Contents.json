@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "terraStation.png",
+      "filename" : "rebelStation.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "terraStation@2x.png",
+      "filename" : "rebelStation@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "terraStation@3x.png",
+      "filename" : "rebelStation@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

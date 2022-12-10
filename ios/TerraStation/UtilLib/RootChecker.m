@@ -7,7 +7,7 @@
 
 #import <TargetConditionals.h>
 #import "RootChecker.h"
-#import "TerraStation-Swift.h"
+#import "RebelStation-Swift.h"
 @import UIKit;
 @import Darwin.sys.sysctl;
 

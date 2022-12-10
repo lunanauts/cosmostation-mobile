@@ -1,4 +1,4 @@
-import { Tx } from '@terra-money/terra.js'
+import { Tx } from '@terra-rebels/terra.js'
 import { atom } from 'recoil'
 import { StoreKeyEnum } from './StoreKeyEnum'
 

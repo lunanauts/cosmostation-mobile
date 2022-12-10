@@ -1,7 +1,7 @@
 import { FinderParams, FinderFunction } from '../types'
 import { useConfig } from '../contexts/ConfigContext'
 
-const FINDER = 'https://finder.terra.money'
+const FINDER = 'https://finder.terrarebels.net'
 
 export default (): FinderFunction => {
   const { chain } = useConfig()

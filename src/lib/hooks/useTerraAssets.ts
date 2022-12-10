@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useQuery } from 'react-query'
 import { QueryKeyEnum } from 'types'
 
-const config = { baseURL: 'https://assets.terra.money' }
+const config = { baseURL: 'https://assets.terrarebels.net' }
 
 const useTerraAssets = <T = any>(
   path: string

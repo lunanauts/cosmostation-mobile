@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { isTxError } from '@terra-money/terra.js'
+import { isTxError } from '@terra-rebels/terra.js'
 
 import { TxsPage, User, Tx, TxUI, TxV2 } from '../../types'
 import { format } from '../../utils'
@@ -12,7 +12,7 @@ import {
   createActionRuleSet,
   createLogMatcherForActions,
   getTxCanonicalMsgs,
-} from '@terra-money/log-finder-ruleset'
+} from '@terra-rebels/log-finder-ruleset'
 
 type Response = {
   txs: Tx[]

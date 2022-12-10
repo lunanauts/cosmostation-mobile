@@ -6,7 +6,7 @@ import SplashScreen from 'react-native-splash-screen'
 import { RecoilRoot, useRecoilValue } from 'recoil'
 import RNExitApp from 'react-native-exit-app'
 import { QueryClient, QueryClientProvider } from 'react-query'
-import { AccAddress } from '@terra-money/terra.js'
+import { AccAddress } from '@terra-rebels/terra.js'
 
 import {
   useAuthState,
@@ -127,7 +127,7 @@ let App = ({
   const onlyIfScan = ({ data }: { data: string }): string => {
     const linkUrl = parseDynamicLinkURL(data)
     const appSheme =
-      data.includes('terrastation:') &&
+      data.includes('rebelstation:') &&
       !!UTIL.getParam({ url: data, key: 'payload' })
     const readable =
       // if kind of address

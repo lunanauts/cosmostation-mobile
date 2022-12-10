@@ -28,7 +28,7 @@ const PagerContents = [
     image: images.on_boarding_0,
     title: 'Welcome Aboard',
     description:
-      'Terra Station is your gateway\nto the Terra ecosystem.',
+      'Rebel Station is your gateway\nto the Terra ecosystem.',
   },
   {
     image: images.on_boarding_1,

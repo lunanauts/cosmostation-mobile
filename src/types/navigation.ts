@@ -1,5 +1,5 @@
 import { createStackNavigator } from '@react-navigation/stack'
-import { AccAddress } from '@terra-money/terra.js'
+import { AccAddress } from '@terra-rebels/terra.js'
 import {BankData, Card, CW20Pairs, VestingItemUI} from 'lib'
 import { DelegateType } from 'lib/post/useDelegate'
 import { TxParam } from './tx'

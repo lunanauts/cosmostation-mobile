@@ -1,4 +1,4 @@
-import { LCDClient } from '@terra-money/terra.js'
+import { LCDClient } from '@terra-rebels/terra.js'
 import { useMemo } from 'react'
 import { useConfig } from '../lib/contexts/ConfigContext'
 import useGasPrices from './useGasPrices'

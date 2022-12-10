@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Coins, MsgExecuteContract } from '@terra-money/terra.js'
+import { Coins, MsgExecuteContract } from '@terra-rebels/terra.js'
 import { BankData, CoinFields } from '../types'
 import {
   PostPage,

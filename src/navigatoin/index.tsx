@@ -91,7 +91,7 @@ const Navigator = (): ReactElement => {
     }
   }, [webviewLoadEnd])
 
-  const linking: LinkingOptions<any> = { prefixes: ['terrastation://'] }
+  const linking: LinkingOptions<any> = { prefixes: ['rebelstation://'] }
 
   return (
     <NavigationContainer

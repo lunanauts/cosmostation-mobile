@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import { CreateTxOptions, isTxError } from '@terra-money/terra.js'
+import { CreateTxOptions, isTxError } from '@terra-rebels/terra.js'
 import WalletConnect from '@walletconnect/client'
 import { useEffect, useState } from 'react'
 

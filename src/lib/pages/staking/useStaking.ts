@@ -8,10 +8,10 @@ import { toNumber } from '../../utils'
 
 import { useDelegations, useUnbondings, useValidators } from '../../../qureys/staking'
 import { useRewards } from '../../../qureys/distribution'
-import { Delegation } from '@terra-money/terra.js'
+import { Delegation } from '@terra-rebels/terra.js'
 import { getCalcVotingPowerRate, useTerraValidators } from '../../../qureys/Terra/TerraAPI'
-import { BondStatus } from '@terra-money/terra.proto/cosmos/staking/v1beta1/staking'
-import { bondStatusFromJSON } from '@terra-money/terra.proto/cosmos/staking/v1beta1/staking'
+import { BondStatus } from '@terra-rebels/terra.proto/cosmos/staking/v1beta1/staking'
+import { bondStatusFromJSON } from '@terra-rebels/terra.proto/cosmos/staking/v1beta1/staking'
 import { TerraValidator } from 'types/validator'
 
 export default (): StakingPage => {

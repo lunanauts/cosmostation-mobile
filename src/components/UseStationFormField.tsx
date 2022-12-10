@@ -7,7 +7,7 @@ import {
   useNavigation,
 } from '@react-navigation/native'
 import BigNumber from 'bignumber.js'
-import { AccAddress } from '@terra-money/terra.js'
+import { AccAddress } from '@terra-rebels/terra.js'
 
 import { UTIL, COLOR } from 'consts'
 

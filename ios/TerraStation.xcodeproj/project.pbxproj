@@ -34,8 +34,8 @@
 		BACA104A26788D5F00958627 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA104926788D5F00958627 /* NSData+AES.m */; };
 		BACA1F96266F381100005D21 /* PushNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BACA1F93266F356300005D21 /* PushNotificationManager.m */; };
 		BAE2649F25B0373A004D0E76 /* RootChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE2649E25B0373A004D0E76 /* RootChecker.m */; };
-		D4510B2B30A678BC7D91B41E /* libPods-TerraStation-TerraStationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F570C12518C79FBDAF6A8DB /* libPods-TerraStation-TerraStationTests.a */; };
-		F942D57928F458453B752DFC /* libPods-TerraStation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C004AC1A33A6C8496E4DC1 /* libPods-TerraStation.a */; };
+		D4510B2B30A678BC7D91B41E /* libPods-RebelStation-TerraStationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F570C12518C79FBDAF6A8DB /* libPods-RebelStation-TerraStationTests.a */; };
+		F942D57928F458453B752DFC /* libPods-RebelStation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C004AC1A33A6C8496E4DC1 /* libPods-RebelStation.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = TerraStation;
+			remoteInfo = RebelStation;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,28 +53,28 @@
 		00E356EE1AD99517003FC87E /* TerraStationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerraStationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* TerraStationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TerraStationTests.m; sourceTree = "<group>"; };
-		0243C62024989165001C2EFA /* TerraStation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TerraStation-Bridging-Header.h"; path = "TerraStation/TerraWalletLib/TerraStation-Bridging-Header.h"; sourceTree = "<group>"; };
-		0243C62124989166001C2EFA /* KeyDerivation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyDerivation.swift; path = TerraStation/TerraWalletLib/SDK/KeyDerivation.swift; sourceTree = "<group>"; };
-		0243C62224989166001C2EFA /* TerraWalletSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TerraWalletSDK.swift; path = TerraStation/TerraWalletLib/SDK/TerraWalletSDK.swift; sourceTree = "<group>"; };
-		0243C62324989166001C2EFA /* KeyPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyPair.swift; path = TerraStation/TerraWalletLib/SDK/KeyPair.swift; sourceTree = "<group>"; };
-		0243C62424989166001C2EFA /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = TerraStation/TerraWalletLib/SDK/Utils.swift; sourceTree = "<group>"; };
-		0243C62524989166001C2EFA /* Sign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sign.swift; path = TerraStation/TerraWalletLib/SDK/Sign.swift; sourceTree = "<group>"; };
-		0243C630249891E3001C2EFA /* TerraWallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TerraWallet.swift; path = TerraStation/TerraWalletLib/TerraWallet.swift; sourceTree = "<group>"; };
-		0243C631249891E3001C2EFA /* TerraWallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TerraWallet.m; path = TerraStation/TerraWalletLib/TerraWallet.m; sourceTree = "<group>"; };
-		0243C636249B50FA001C2EFA /* Keystore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Keystore.h; path = TerraStation/KeystoreLib/Keystore.h; sourceTree = "<group>"; };
-		0243C637249B50FA001C2EFA /* Keystore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Keystore.m; path = TerraStation/KeystoreLib/Keystore.m; sourceTree = "<group>"; };
-		0243C639249B5101001C2EFA /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Preferences.swift; path = TerraStation/PreferencesLib/Preferences.swift; sourceTree = "<group>"; };
-		0243C63A249B5101001C2EFA /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Preferences.m; path = TerraStation/PreferencesLib/Preferences.m; sourceTree = "<group>"; };
+		0243C62024989165001C2EFA /* RebelStation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RebelStation-Bridging-Header.h"; path = "RebelStation/TerraWalletLib/RebelStation-Bridging-Header.h"; sourceTree = "<group>"; };
+		0243C62124989166001C2EFA /* KeyDerivation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyDerivation.swift; path = RebelStation/TerraWalletLib/SDK/KeyDerivation.swift; sourceTree = "<group>"; };
+		0243C62224989166001C2EFA /* TerraWalletSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TerraWalletSDK.swift; path = RebelStation/TerraWalletLib/SDK/TerraWalletSDK.swift; sourceTree = "<group>"; };
+		0243C62324989166001C2EFA /* KeyPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyPair.swift; path = RebelStation/TerraWalletLib/SDK/KeyPair.swift; sourceTree = "<group>"; };
+		0243C62424989166001C2EFA /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = RebelStation/TerraWalletLib/SDK/Utils.swift; sourceTree = "<group>"; };
+		0243C62524989166001C2EFA /* Sign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sign.swift; path = RebelStation/TerraWalletLib/SDK/Sign.swift; sourceTree = "<group>"; };
+		0243C630249891E3001C2EFA /* TerraWallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TerraWallet.swift; path = RebelStation/TerraWalletLib/TerraWallet.swift; sourceTree = "<group>"; };
+		0243C631249891E3001C2EFA /* TerraWallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TerraWallet.m; path = RebelStation/TerraWalletLib/TerraWallet.m; sourceTree = "<group>"; };
+		0243C636249B50FA001C2EFA /* Keystore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Keystore.h; path = RebelStation/KeystoreLib/Keystore.h; sourceTree = "<group>"; };
+		0243C637249B50FA001C2EFA /* Keystore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Keystore.m; path = RebelStation/KeystoreLib/Keystore.m; sourceTree = "<group>"; };
+		0243C639249B5101001C2EFA /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Preferences.swift; path = RebelStation/PreferencesLib/Preferences.swift; sourceTree = "<group>"; };
+		0243C63A249B5101001C2EFA /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Preferences.m; path = RebelStation/PreferencesLib/Preferences.m; sourceTree = "<group>"; };
 		0BAAD692EE65455EBDB92AB0 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		0E2D220F2D1B4671881FC225 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		12B5A766D69B571063D17EE5 /* Pods-TerraStation-TerraStationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TerraStation-TerraStationTests.debug.xcconfig"; path = "Target Support Files/Pods-TerraStation-TerraStationTests/Pods-TerraStation-TerraStationTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* TerraStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TerraStation/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TerraStation/AppDelegate.m; sourceTree = "<group>"; };
+		12B5A766D69B571063D17EE5 /* Pods-RebelStation-TerraStationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebelStation-TerraStationTests.debug.xcconfig"; path = "Target Support Files/Pods-RebelStation-TerraStationTests/Pods-RebelStation-TerraStationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* RebelStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebelStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RebelStation/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RebelStation/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TerraStation/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TerraStation/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TerraStation/main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RebelStation/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RebelStation/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RebelStation/main.m; sourceTree = "<group>"; };
 		1773D6CF832E4AC2991F142B /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		1A8EE34F702C47BBBAFC5BAA /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		2053120A7C7E4B62BB70F5F2 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
@@ -82,17 +82,17 @@
 		26F61150910E4BA1B9673D38 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		32AC3234DB9349ACAC6A4F15 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		35D171D3281F4E4281E56902 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
-		3EC07DCBA687626B0EF4858C /* Pods-TerraStation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TerraStation.debug.xcconfig"; path = "Target Support Files/Pods-TerraStation/Pods-TerraStation.debug.xcconfig"; sourceTree = "<group>"; };
+		3EC07DCBA687626B0EF4858C /* Pods-RebelStation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebelStation.debug.xcconfig"; path = "Target Support Files/Pods-RebelStation/Pods-RebelStation.debug.xcconfig"; sourceTree = "<group>"; };
 		43DC6851CA814B5789C1A9CD /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		455E941DE6FD2A7393CFAB93 /* Pods-TerraStation-TerraStationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TerraStation-TerraStationTests.release.xcconfig"; path = "Target Support Files/Pods-TerraStation-TerraStationTests/Pods-TerraStation-TerraStationTests.release.xcconfig"; sourceTree = "<group>"; };
-		5F570C12518C79FBDAF6A8DB /* libPods-TerraStation-TerraStationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TerraStation-TerraStationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6407908F88AF383D73532601 /* Pods-TerraStation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TerraStation.release.xcconfig"; path = "Target Support Files/Pods-TerraStation/Pods-TerraStation.release.xcconfig"; sourceTree = "<group>"; };
+		455E941DE6FD2A7393CFAB93 /* Pods-RebelStation-TerraStationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebelStation-TerraStationTests.release.xcconfig"; path = "Target Support Files/Pods-RebelStation-TerraStationTests/Pods-RebelStation-TerraStationTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F570C12518C79FBDAF6A8DB /* libPods-RebelStation-TerraStationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RebelStation-TerraStationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6407908F88AF383D73532601 /* Pods-RebelStation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebelStation.release.xcconfig"; path = "Target Support Files/Pods-RebelStation/Pods-RebelStation.release.xcconfig"; sourceTree = "<group>"; };
 		7B4CE0198FC04178A4492EFF /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		9787460410A74AE3BD846D56 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		AB2F42D7F5C949D2BB386202 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		AB60EA49B6C74277A50F76A0 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		B2D19B1510F54421B8D75011 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
-		BA69BE9825CD1031001E26A5 /* TerraStation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = TerraStation.entitlements; path = TerraStation/TerraStation.entitlements; sourceTree = "<group>"; };
+		BA69BE9825CD1031001E26A5 /* RebelStation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = RebelStation.entitlements; path = RebelStation/RebelStation.entitlements; sourceTree = "<group>"; };
 		BA9257F625B17ACF0081BC42 /* Gotham-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Medium.ttf"; sourceTree = "<group>"; };
 		BA9257F725B17ACF0081BC42 /* Gotham-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Book.ttf"; sourceTree = "<group>"; };
 		BA9257F825B17ACF0081BC42 /* Gotham-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.ttf"; sourceTree = "<group>"; };
@@ -113,20 +113,20 @@
 		BA92588E25B180E80081BC42 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		BA92588F25B180E80081BC42 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		BA92589025B180E80081BC42 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		BAAB469D26774B940063B736 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common.swift; path = TerraStation/UtilLib/Common.swift; sourceTree = "<group>"; };
-		BAAB46A126774BB20063B736 /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Common.m; path = TerraStation/UtilLib/Common.m; sourceTree = "<group>"; };
-		BABA476D26804BA500EA79AB /* TamperChecker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TamperChecker.m; path = TerraStation/UtilLib/TamperChecker.m; sourceTree = "<group>"; };
-		BABA477126804BB500EA79AB /* TamperChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TamperChecker.h; path = TerraStation/UtilLib/TamperChecker.h; sourceTree = "<group>"; };
+		BAAB469D26774B940063B736 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Common.swift; path = RebelStation/UtilLib/Common.swift; sourceTree = "<group>"; };
+		BAAB46A126774BB20063B736 /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Common.m; path = RebelStation/UtilLib/Common.m; sourceTree = "<group>"; };
+		BABA476D26804BA500EA79AB /* TamperChecker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TamperChecker.m; path = RebelStation/UtilLib/TamperChecker.m; sourceTree = "<group>"; };
+		BABA477126804BB500EA79AB /* TamperChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TamperChecker.h; path = RebelStation/UtilLib/TamperChecker.h; sourceTree = "<group>"; };
 		BACA104726788B0200958627 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		BACA104926788D5F00958627 /* NSData+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSData+AES.m"; path = "TerraStation/NSData+AES.m"; sourceTree = "<group>"; };
-		BACA104D26788D8200958627 /* NSData+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSData+AES.h"; path = "TerraStation/NSData+AES.h"; sourceTree = "<group>"; };
-		BACA1F92266F34F300005D21 /* PushNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PushNotificationManager.h; path = TerraStation/UtilLib/PushNotificationManager.h; sourceTree = "<group>"; };
-		BACA1F93266F356300005D21 /* PushNotificationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PushNotificationManager.m; path = TerraStation/UtilLib/PushNotificationManager.m; sourceTree = "<group>"; };
-		BAE2649D25B0373A004D0E76 /* RootChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootChecker.h; path = TerraStation/UtilLib/RootChecker.h; sourceTree = "<group>"; };
-		BAE2649E25B0373A004D0E76 /* RootChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootChecker.m; path = TerraStation/UtilLib/RootChecker.m; sourceTree = "<group>"; };
+		BACA104926788D5F00958627 /* NSData+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSData+AES.m"; path = "RebelStation/NSData+AES.m"; sourceTree = "<group>"; };
+		BACA104D26788D8200958627 /* NSData+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSData+AES.h"; path = "RebelStation/NSData+AES.h"; sourceTree = "<group>"; };
+		BACA1F92266F34F300005D21 /* PushNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PushNotificationManager.h; path = RebelStation/UtilLib/PushNotificationManager.h; sourceTree = "<group>"; };
+		BACA1F93266F356300005D21 /* PushNotificationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PushNotificationManager.m; path = RebelStation/UtilLib/PushNotificationManager.m; sourceTree = "<group>"; };
+		BAE2649D25B0373A004D0E76 /* RootChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootChecker.h; path = RebelStation/UtilLib/RootChecker.h; sourceTree = "<group>"; };
+		BAE2649E25B0373A004D0E76 /* RootChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootChecker.m; path = RebelStation/UtilLib/RootChecker.m; sourceTree = "<group>"; };
 		BF6EA243C7884B1B99CBBE6C /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		D54721D07C4E4719A947EF90 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		D7C004AC1A33A6C8496E4DC1 /* libPods-TerraStation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TerraStation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C004AC1A33A6C8496E4DC1 /* libPods-RebelStation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RebelStation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -136,7 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4510B2B30A678BC7D91B41E /* libPods-TerraStation-TerraStationTests.a in Frameworks */,
+				D4510B2B30A678BC7D91B41E /* libPods-RebelStation-TerraStationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BACA104826788B0200958627 /* Security.framework in Frameworks */,
-				F942D57928F458453B752DFC /* libPods-TerraStation.a in Frameworks */,
+				F942D57928F458453B752DFC /* libPods-RebelStation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +175,7 @@
 				0243C631249891E3001C2EFA /* TerraWallet.m */,
 				0243C630249891E3001C2EFA /* TerraWallet.swift */,
 				0243C62B249891B4001C2EFA /* SDK */,
-				0243C62024989165001C2EFA /* TerraStation-Bridging-Header.h */,
+				0243C62024989165001C2EFA /* RebelStation-Bridging-Header.h */,
 			);
 			name = TerraWalletLib;
 			sourceTree = "<group>";
@@ -210,11 +210,11 @@
 			name = KeystoreLib;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* TerraStation */ = {
+		13B07FAE1A68108700A75B9A /* RebelStation */ = {
 			isa = PBXGroup;
 			children = (
 				259FF272267F7DC600BC9A11 /* SwiftBridge.swift */,
-				BA69BE9825CD1031001E26A5 /* TerraStation.entitlements */,
+				BA69BE9825CD1031001E26A5 /* RebelStation.entitlements */,
 				0243C635249B50ED001C2EFA /* KeystoreLib */,
 				0243C634249B50E1001C2EFA /* PreferencesLib */,
 				0243C61F24989147001C2EFA /* TerraWalletLib */,
@@ -229,7 +229,7 @@
 				BACA104926788D5F00958627 /* NSData+AES.m */,
 				BACA104D26788D8200958627 /* NSData+AES.h */,
 			);
-			name = TerraStation;
+			name = RebelStation;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -238,8 +238,8 @@
 				BACA104726788B0200958627 /* Security.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				D7C004AC1A33A6C8496E4DC1 /* libPods-TerraStation.a */,
-				5F570C12518C79FBDAF6A8DB /* libPods-TerraStation-TerraStationTests.a */,
+				D7C004AC1A33A6C8496E4DC1 /* libPods-RebelStation.a */,
+				5F570C12518C79FBDAF6A8DB /* libPods-RebelStation-TerraStationTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -255,7 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				BA9257F525B179400081BC42 /* Resources */,
-				13B07FAE1A68108700A75B9A /* TerraStation */,
+				13B07FAE1A68108700A75B9A /* RebelStation */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* TerraStationTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -270,7 +270,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* TerraStation.app */,
+				13B07F961A680F5B00A75B9A /* RebelStation.app */,
 				00E356EE1AD99517003FC87E /* TerraStationTests.xctest */,
 			);
 			name = Products;
@@ -279,10 +279,10 @@
 		9B4D310106CAB12A97CA8227 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3EC07DCBA687626B0EF4858C /* Pods-TerraStation.debug.xcconfig */,
-				6407908F88AF383D73532601 /* Pods-TerraStation.release.xcconfig */,
-				12B5A766D69B571063D17EE5 /* Pods-TerraStation-TerraStationTests.debug.xcconfig */,
-				455E941DE6FD2A7393CFAB93 /* Pods-TerraStation-TerraStationTests.release.xcconfig */,
+				3EC07DCBA687626B0EF4858C /* Pods-RebelStation.debug.xcconfig */,
+				6407908F88AF383D73532601 /* Pods-RebelStation.release.xcconfig */,
+				12B5A766D69B571063D17EE5 /* Pods-RebelStation-TerraStationTests.debug.xcconfig */,
+				455E941DE6FD2A7393CFAB93 /* Pods-RebelStation-TerraStationTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -369,9 +369,9 @@
 			productReference = 00E356EE1AD99517003FC87E /* TerraStationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* TerraStation */ = {
+		13B07F861A680F5B00A75B9A /* RebelStation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TerraStation" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RebelStation" */;
 			buildPhases = (
 				FBD1002303066C1E3579B740 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -386,9 +386,9 @@
 			);
 			dependencies = (
 			);
-			name = TerraStation;
-			productName = TerraStation;
-			productReference = 13B07F961A680F5B00A75B9A /* TerraStation.app */;
+			name = RebelStation;
+			productName = RebelStation;
+			productReference = 13B07F961A680F5B00A75B9A /* RebelStation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -409,7 +409,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TerraStation" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RebelStation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -422,7 +422,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* TerraStation */,
+				13B07F861A680F5B00A75B9A /* RebelStation */,
 				00E356ED1AD99517003FC87E /* TerraStationTests */,
 			);
 		};
@@ -472,7 +472,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TerraStation-TerraStationTests/Pods-TerraStation-TerraStationTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RebelStation-TerraStationTests/Pods-RebelStation-TerraStationTests-frameworks.sh",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/hermes.framework/hermes",
@@ -485,7 +485,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TerraStation-TerraStationTests/Pods-TerraStation-TerraStationTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RebelStation-TerraStationTests/Pods-RebelStation-TerraStationTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2E9E1F52522551D5600B71AD /* [CP] Copy Pods Resources */ = {
@@ -494,7 +494,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TerraStation/Pods-TerraStation-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RebelStation/Pods-RebelStation-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -535,7 +535,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TerraStation/Pods-TerraStation-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RebelStation/Pods-RebelStation-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3087869F44186681292F3063 /* [CP] Embed Pods Frameworks */ = {
@@ -544,7 +544,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TerraStation/Pods-TerraStation-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RebelStation/Pods-RebelStation-frameworks.sh",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/hermes.framework/hermes",
@@ -557,7 +557,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TerraStation/Pods-TerraStation-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RebelStation/Pods-RebelStation-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6513FDA64D64519EA383569D /* [CP] Copy Pods Resources */ = {
@@ -566,7 +566,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TerraStation-TerraStationTests/Pods-TerraStation-TerraStationTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RebelStation-TerraStationTests/Pods-RebelStation-TerraStationTests-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -607,7 +607,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TerraStation-TerraStationTests/Pods-TerraStation-TerraStationTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RebelStation-TerraStationTests/Pods-RebelStation-TerraStationTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6C8FE16A532380475FF53147 /* [CP] Check Pods Manifest.lock */ = {
@@ -625,7 +625,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TerraStation-TerraStationTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RebelStation-TerraStationTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -647,7 +647,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TerraStation-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RebelStation-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -715,7 +715,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* TerraStation */;
+			target = 13B07F861A680F5B00A75B9A /* RebelStation */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -727,7 +727,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = TerraStation;
+			path = RebelStation;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -735,7 +735,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12B5A766D69B571063D17EE5 /* Pods-TerraStation-TerraStationTests.debug.xcconfig */;
+			baseConfigurationReference = 12B5A766D69B571063D17EE5 /* Pods-RebelStation-TerraStationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -753,13 +753,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerraStation.app/TerraStation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RebelStation.app/RebelStation";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 455E941DE6FD2A7393CFAB93 /* Pods-TerraStation-TerraStationTests.release.xcconfig */;
+			baseConfigurationReference = 455E941DE6FD2A7393CFAB93 /* Pods-RebelStation-TerraStationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -774,17 +774,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerraStation.app/TerraStation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RebelStation.app/RebelStation";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EC07DCBA687626B0EF4858C /* Pods-TerraStation.debug.xcconfig */;
+			baseConfigurationReference = 3EC07DCBA687626B0EF4858C /* Pods-RebelStation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = TerraStation/TerraStation.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RebelStation/RebelStation.entitlements;
 				CURRENT_PROJECT_VERSION = 20000001;
 				DEVELOPMENT_TEAM = U5D98K4YPD;
 				ENABLE_BITCODE = NO;
@@ -793,7 +793,7 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = TerraStation/Info.plist;
+				INFOPLIST_FILE = RebelStation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 2.0.0;
@@ -803,8 +803,8 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = money.terra.station;
-				PRODUCT_NAME = TerraStation;
-				SWIFT_OBJC_BRIDGING_HEADER = "./TerraStation/TerraWalletLib/TerraStation-Bridging-Header.h";
+				PRODUCT_NAME = RebelStation;
+				SWIFT_OBJC_BRIDGING_HEADER = "./RebelStation/TerraWalletLib/RebelStation-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -813,16 +813,16 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6407908F88AF383D73532601 /* Pods-TerraStation.release.xcconfig */;
+			baseConfigurationReference = 6407908F88AF383D73532601 /* Pods-RebelStation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = TerraStation/TerraStation.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RebelStation/RebelStation.entitlements;
 				CURRENT_PROJECT_VERSION = 20000001;
 				DEVELOPMENT_TEAM = U5D98K4YPD;
 				EXCLUDED_ARCHS = "";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
-				INFOPLIST_FILE = TerraStation/Info.plist;
+				INFOPLIST_FILE = RebelStation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 2.0.0;
@@ -832,8 +832,8 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = money.terra.station;
-				PRODUCT_NAME = TerraStation;
-				SWIFT_OBJC_BRIDGING_HEADER = "./TerraStation/TerraWalletLib/TerraStation-Bridging-Header.h";
+				PRODUCT_NAME = RebelStation;
+				SWIFT_OBJC_BRIDGING_HEADER = "./RebelStation/TerraWalletLib/RebelStation-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -962,7 +962,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TerraStation" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RebelStation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -971,7 +971,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TerraStation" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RebelStation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

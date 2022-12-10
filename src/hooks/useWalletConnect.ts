@@ -34,10 +34,10 @@ const useWalletConnect = (): {
       {
         ...connectorOpts,
         clientMeta: {
-          description: 'Terra mobile station',
-          url: 'https://terra.money/',
-          icons: ['https://terra.money/assets/img/favicon_196.png'],
-          name: 'Station',
+          description: 'Rebel Station',
+          url: 'https://terrarebels.net/',
+          icons: ['https://station.terrarebels.net/favicon.ico'],
+          name: 'Rebel Station',
         },
       },
       pushServerOpts

@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Dictionary, without } from 'ramda'
-import { Coin } from '@terra-money/terra.js'
+import { Coin } from '@terra-rebels/terra.js'
 import {
   Msg,
   MsgExecuteContract,
   MsgSwap,
-} from '@terra-money/terra.js'
+} from '@terra-rebels/terra.js'
 import {
   PostPage,
   CoinItem as StationCoin,

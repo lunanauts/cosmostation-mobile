@@ -87,7 +87,7 @@ const usePayload = (): {
 
     try {
       const fetchList = await (
-        await fetch('https://assets.terra.money/cw20/tokens.json')
+        await fetch('https://assets.terrarebels.net/cw20/tokens.json')
       ).json()
       const whitelist = fetchList[chain.current.name]
       const token = params?.token || ''

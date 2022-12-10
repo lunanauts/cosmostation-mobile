@@ -81,7 +81,7 @@
       "Select wallet": "Selecciona una cartera",
       "Access with ledger": "Identifícate con ledger",
       "Browse with address": "Identifícate con una dirección",
-      "Download Terra Station": "Descarga la estación Terra"
+      "Download Rebel Station": "Descarga la estación Terra"
     },
 
     "Common": {
@@ -95,7 +95,7 @@
       "Quickly glance through your address": "Echa un vistazo a tu dirección",
 
       "How can I create an wallet?": "¿Cómo puedo crear una cartera?",
-      "If you want to create an wallet, please download <0>Terra Station for Windows/MacOS</0>. We don't support creating an wallet for Terra Station web due to the security reasons.": "Si deseas crear un portafolio, por favor descarga <0>Terra Station para Windows/macOS.</0> La creación de un portafolio en la web de Terra Station no está soportada por razones de seguridad",
+      "If you want to create an wallet, please download <0>Rebel Station for Windows/MacOS</0>. We don't support creating an wallet for Rebel Station web due to the security reasons.": "Si deseas crear un portafolio, por favor descarga <0>Rebel Station para Windows/macOS.</0> La creación de un portafolio en la web de Rebel Station no está soportada por razones de seguridad",
 
       "Connection required": "Conexión requerida.",
       "This page shows data for a specific address. To access the page, please <0>connect</0>.": "Esta página muestra los datos de una dirección específica. Para acceder a esta página, por favor <0> inicia sesión</0>",
@@ -117,7 +117,7 @@
 
       "{{word}} is an invalid word": "{{palabra}} es una palabra inválida",
       "What if I lost my seed phrase?": "¿Y si pierdo mi eslogan?",
-      "We cannot recover your information for you. If you lose your seed phrase it's GONE FOREVER. Terra Station does not store your mnemonic.": "No podemos recuperar tu información por ti. Si pierdes tu frase cebo, la perderás PARA SIEMPRE. La Estación Terra no la salva.",
+      "We cannot recover your information for you. If you lose your seed phrase it's GONE FOREVER. Rebel Station does not store your mnemonic.": "No podemos recuperar tu información por ti. Si pierdes tu frase cebo, la perderás PARA SIEMPRE. La Estación Terra no la salva.",
       "I have securely <0>WRITTEN DOWN MY SEED</0>. I understand that lost seeds cannot be recovered.": "He escrito de forma segura <0>Mi semilla</0>. Entiendo que las semillas perdidas no se pueden recuperar.",
       "Select address to recover": "Selecciona la dirección a recoger",
       "Vested": "Adquirido",
@@ -125,14 +125,14 @@
       "Undelegated": "No delegado",
       "No balance": "No se paga",
       "Wallet recovered successfully!": "¡Billetera recuperada con éxito!",
-      "Welcome back to Terra Station.": "Bienvenido a la Estación Terra.",
+      "Welcome back to Rebel Station.": "Bienvenido a la Estación Terra.",
 
       "Confirm your seed": "Confirma tu frase de cebo",
       "{{index}} word": "Número de palabra {{index}}",
       "Select or type": "Selecciona o teclea",
       "Create a wallet": "Crear una cartera",
       "Wallet created!": "¡Bolsa creada!",
-      "Welcome aboard to Terra Station.": "Bienvenido a la Estación Terra.",
+      "Welcome aboard to Rebel Station.": "Bienvenido a la Estación Terra.",
       "Explore the Terra Network": "Explorez le réseau Terra"
     },
 

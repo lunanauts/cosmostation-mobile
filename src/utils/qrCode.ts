@@ -2,8 +2,8 @@ import { UTIL } from 'consts'
 import _ from 'lodash'
 
 export const schemeUrl = {
-  recoverWallet: /^terrastation:(|\/\/)wallet_recover\/\?payload=/,
-  send: /^terrastation:(|\/\/)send\/\?payload=/,
+  recoverWallet: /^rebelstation:(|\/\/)wallet_recover\/\?payload=/,
+  send: /^rebelstation:(|\/\/)send\/\?payload=/,
 }
 
 export const getRecoverWalletDataFromPayload = (
@@ -33,5 +33,5 @@ export const createRecoverWalletSchemeUrl = (
   props: RecoverWalletSchemeDataType
 ): string => {
   const payload = createRecoverWalletPayload(props)
-  return `terrastation://wallet_recover/?payload=${payload}`
+  return `rebelstation://wallet_recover/?payload=${payload}`
 }

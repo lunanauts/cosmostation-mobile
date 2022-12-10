@@ -1,8 +1,8 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
 import { TFunction } from 'i18next'
-import { MsgExecuteContract, MsgSwap } from '@terra-money/terra.js'
-import { Coin } from '@terra-money/terra.js'
+import { MsgExecuteContract, MsgSwap } from '@terra-rebels/terra.js'
+import { Coin } from '@terra-rebels/terra.js'
 import {
   PostPage,
   SwapUI,
@@ -100,7 +100,7 @@ export default (user: User, actives: string[]): PostPage<SwapUI> => {
     value: denom,
     children: format.denom(denom),
     balance: find(`${denom}:available`, bank.data?.balance) ?? '0',
-    icon: `https://assets.terra.money/icon/60/${format.denom(
+    icon: `https://assets.terrarebels.net/icon/60/${format.denom(
       denom
     )}.png`,
   }))

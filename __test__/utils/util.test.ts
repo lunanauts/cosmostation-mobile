@@ -33,19 +33,19 @@ describe('util', () => {
     })
 
     test('success with no query linking url ', () => {
-      const url = 'terrastation://path/'
+      const url = 'rebelstation://path/'
       expect(UTIL.getParam({ url, key: 'test' })).toBe('')
       expect(UTIL.getParam({ url, key: 'empty' })).toBe('')
     })
 
     test('success with query linking url case 1', () => {
-      const url = 'terrastation://path?test=1'
+      const url = 'rebelstation://path?test=1'
       expect(UTIL.getParam({ url, key: 'test' })).toBe('1')
       expect(UTIL.getParam({ url, key: 'empty' })).toBe('')
     })
 
     test('success with query linking url case 2', () => {
-      const url = 'terrastation://path/?test=1'
+      const url = 'rebelstation://path/?test=1'
       expect(UTIL.getParam({ url, key: 'test' })).toBe('1')
       expect(UTIL.getParam({ url, key: 'empty' })).toBe('')
     })

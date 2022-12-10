@@ -5,8 +5,8 @@ import {
   Key,
   TxInfo,
   Wallet,
-} from '@terra-money/terra.js'
-import { SignMode } from '@terra-money/terra.proto/cosmos/tx/signing/v1beta1/signing'
+} from '@terra-rebels/terra.js'
+import { SignMode } from '@terra-rebels/terra.proto/cosmos/tx/signing/v1beta1/signing'
 import { StackNavigationProp } from '@react-navigation/stack'
 
 import { useConfig, useIsClassic, User } from 'lib'
@@ -17,7 +17,7 @@ import { useLoading } from './useLoading'
 import { RootStackParams } from 'types'
 import useLCD from './useLCD'
 
-import { LedgerKey } from '@terra-money/ledger-terra-js'
+import { LedgerKey } from '@terra-rebels/ledger-terra-js'
 import TransportBLE from '@ledgerhq/react-native-hw-transport-ble'
 
 const useTx = ({

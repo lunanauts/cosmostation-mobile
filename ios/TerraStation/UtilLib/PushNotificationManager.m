@@ -1,6 +1,6 @@
 //
 //  PushNotificationManager.m
-//  TerraStation
+//  RebelStation
 //
 //  Created by Henry on 2021/06/08.
 //

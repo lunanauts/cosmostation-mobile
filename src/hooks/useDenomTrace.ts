@@ -1,11 +1,11 @@
 import { QueryObserverResult, useQuery } from 'react-query'
-import { DenomTrace } from '@terra-money/terra.js/dist/core/ibc-transfer/DenomTrace'
+import { DenomTrace } from '@terra-rebels/terra.js/dist/core/ibc-transfer/DenomTrace'
 
 import { UTIL } from 'consts'
 
 import { QueryKeyEnum } from 'types'
 import useLCD from './useLCD'
-import { LCDClient } from '@terra-money/terra.js'
+import { LCDClient } from '@terra-rebels/terra.js'
 
 export const useDenomTrace = (
   denom = ''

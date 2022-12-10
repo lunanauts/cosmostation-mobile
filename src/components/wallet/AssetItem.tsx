@@ -9,7 +9,7 @@ import {
   NavigationProp,
   useNavigation,
 } from '@react-navigation/native'
-import { Coin } from '@terra-money/terra.js'
+import { Coin } from '@terra-rebels/terra.js'
 import { useQuery } from 'react-query'
 import Tooltip from 'react-native-walkthrough-tooltip'
 
@@ -105,7 +105,7 @@ const AssetItem = ({
   const isIbcDenom = UTIL.isIbcDenom(item.denom)
   const ibcDenom = useDenomTrace(item.denom)
   const isClassic = useIsClassic()
-  const ASSET = 'https://assets.terra.money/icon'
+  const ASSET = 'https://assets.terrarebels.net/icon'
 
   const icon =
     item.denom && UTIL.isNativeDenom(item.denom)

@@ -80,7 +80,7 @@
       "Select wallet": "加载钱包",
       "Access with ledger": "使用ledger 登录",
       "Browse with address": "使用地址查询",
-      "Download Terra Station": "Terra Station下载"
+      "Download Rebel Station": "Rebel Station下载"
     },
 
     "Common": {
@@ -94,7 +94,7 @@
       "Quickly glance through your address": "通过地址快速浏览您的账户",
 
       "How can I create an wallet?": "如何创建钱包？",
-      "If you want to create an wallet, please download <0>Terra Station for Windows/MacOS</0>. We don't support creating an wallet for Terra Station web due to the security reasons.": "如果要创建钱包，请下载 <0>Windows / MacOS版 Terra Station</0>。应用程序，出于安全原因，我们不支持通过Terra Station网站创建钱包。",
+      "If you want to create an wallet, please download <0>Rebel Station for Windows/MacOS</0>. We don't support creating an wallet for Rebel Station web due to the security reasons.": "如果要创建钱包，请下载 <0>Windows / MacOS版 Rebel Station</0>。应用程序，出于安全原因，我们不支持通过Rebel Station网站创建钱包。",
 
       "Connection required": "需要登录",
       "This page shows data for a specific address. To access the page, please <0>connect</0>.": "为了显示此页面，需要连接钱包。",
@@ -116,7 +116,7 @@
 
       "{{word}} is an invalid word": "{{word}}是无效的助记词",
       "What if I lost my seed phrase?": "如果我丢失了我的助记词怎么办？",
-      "We cannot recover your information for you. If you lose your seed phrase it's GONE FOREVER. Terra Station does not store your mnemonic.": "如果您丢失了助记词，它将永远消失。我们将无法为您恢复信息。Station 将不会存储任何数据。",
+      "We cannot recover your information for you. If you lose your seed phrase it's GONE FOREVER. Rebel Station does not store your mnemonic.": "如果您丢失了助记词，它将永远消失。我们将无法为您恢复信息。Station 将不会存储任何数据。",
       "I have securely <0>WRITTEN DOWN MY SEED</0>. I understand that lost seeds cannot be recovered.": "<1>我写下了我的助记词。</1> 我已了解丢失的助记词后将无法恢复。",
 
       "Select address to recover": "选择要恢复的地址",
@@ -125,14 +125,14 @@
       "Undelegated": "取消委托",
       "No balance": "没有余额",
       "Wallet recovered successfully!": "成功地恢复了",
-      "Welcome back to Terra Station.": "欢迎回到Terra Station。",
+      "Welcome back to Rebel Station.": "欢迎回到Rebel Station。",
 
       "Confirm your seed": "确认助记词",
       "{{index}} word": "第{{index}}个字",
       "Select or type": "请输入",
       "Create a wallet": "创建钱包",
       "Wallet created!": "钱包创建成功",
-      "Welcome aboard to Terra Station.": "欢迎来到Terra Station。",
+      "Welcome aboard to Rebel Station.": "欢迎来到Rebel Station。",
       "Explore the Terra Network": "畅游Terra Network"
     },
 

@@ -4,7 +4,7 @@ import {
 } from '@react-navigation/native'
 import { useSetRecoilState } from 'recoil'
 import _ from 'lodash'
-import { RawKey, Key } from '@terra-money/terra.js'
+import { RawKey, Key } from '@terra-rebels/terra.js'
 
 import {
   ConfirmPage,
@@ -17,7 +17,7 @@ import ConfirmStore from 'stores/ConfirmStore'
 import { RootStackParams } from 'types'
 
 import { getDecyrptedKey } from 'utils/wallet'
-import { LedgerKey } from '@terra-money/ledger-terra-js'
+import { LedgerKey } from '@terra-rebels/ledger-terra-js'
 import TransportBLE from '@ledgerhq/react-native-hw-transport-ble'
 
 export type NavigateToConfirmProps = {

@@ -1,4 +1,4 @@
-import { CreateTxOptions, Msg, Fee } from '@terra-money/terra.js'
+import { CreateTxOptions, Msg, Fee } from '@terra-rebels/terra.js'
 import { UTIL } from 'consts'
 import _ from 'lodash'
 

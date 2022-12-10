@@ -1,4 +1,4 @@
-import { MsgWithdrawDelegatorReward } from '@terra-money/terra.js'
+import { MsgWithdrawDelegatorReward } from '@terra-rebels/terra.js'
 import { useTranslation } from 'react-i18next'
 import { User, WithdrawProps, PostPage } from '../types'
 import useBank from '../api/useBank'

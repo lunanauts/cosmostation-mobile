@@ -12,16 +12,16 @@ const defaultNetworks: Record<NetworkEnum, ChainOptions> = {
     fcd: 'https://phoenix-fcd.terra.dev',
     api: 'https://phoenix-api.terra.dev',
     mantle: 'https://phoenix-mantle.terra.dev',
-    walletconnectID: 1
+    walletconnectID: 2
   },
   classic: {
     name: NetworkEnum.classic,
     chainID: 'columbus-5',
-    lcd: 'https://columbus-lcd.terra.dev',
-    fcd: 'https://columbus-fcd.terra.dev',
-    api: 'https://columbus-api.terra.dev',
-    mantle: 'https://columbus-mantle.terra.dev',
-    walletconnectID: 2
+    lcd: 'https://lcd.terrarebels.net',
+    fcd: 'https://fcd.terrarebels.net',
+    api: 'https://api.terrarebels.net',
+    mantle: 'https://lcd.terrarebels.net',
+    walletconnectID: 1
   },
   testnet: {
     name: NetworkEnum.testnet,
@@ -47,8 +47,8 @@ const useNetworks = (): {
     }
 
     return {
-      [NetworkEnum.mainnet]: getOptions(NetworkEnum.mainnet),
       [NetworkEnum.classic]: getOptions(NetworkEnum.classic),
+      [NetworkEnum.mainnet]: getOptions(NetworkEnum.mainnet),
       [NetworkEnum.testnet]: getOptions(NetworkEnum.testnet),
     }
   }, [data])

@@ -5,8 +5,8 @@ import {
   Tx,
   SyncTxBroadcastResult,
   Wallet,
-} from '@terra-money/terra.js'
-import { SignMode } from '@terra-money/terra.proto/cosmos/tx/signing/v1beta1/signing'
+} from '@terra-rebels/terra.js'
+import { SignMode } from '@terra-rebels/terra.proto/cosmos/tx/signing/v1beta1/signing'
 import { useRecoilValue } from 'recoil'
 import { StackNavigationProp } from '@react-navigation/stack'
 

@@ -7,7 +7,7 @@ import {
 } from 'react-native'
 import { StackNavigationOptions } from '@react-navigation/stack'
 import { getStatusBarHeight } from 'react-native-status-bar-height'
-import { AccAddress } from '@terra-money/terra.js'
+import { AccAddress } from '@terra-rebels/terra.js'
 import {
   NavigationProp,
   useNavigation,
@@ -44,7 +44,7 @@ const HeaderRight = (): ReactElement => {
   const onlyIfScan = ({ data }: { data: string }): string => {
     const linkUrl = parseDynamicLinkURL(data)
     const appSheme =
-      data.includes('terrastation:') &&
+      data.includes('rebelstation:') &&
       !!UTIL.getParam({ url: data, key: 'payload' })
     const readable =
       // if kind of address
@@ -62,7 +62,7 @@ const HeaderRight = (): ReactElement => {
           <QrCodeButton
             onlyIfScan={onlyIfScan}
             onRead={({ data }): void => {
-              if (data.includes('terrastation:')) {
+              if (data.includes('rebelstation:')) {
                 openURL(data)
               } else if (AccAddress.validate(data)) {
                 navigate('SelectCoinToSend', { toAddress: data })
@@ -79,7 +79,7 @@ const HeaderRight = (): ReactElement => {
                         break
                       default:
                         openURL(
-                          `terrastation://${action}/?payload=${payload}`
+                          `rebelstation://${action}/?payload=${payload}`
                         )
                         break
                     }

@@ -1,4 +1,4 @@
-import { Key, Msg } from '@terra-money/terra.js'
+import { Key, Msg } from '@terra-rebels/terra.js'
 import { FormUI, FieldAttrs, Options } from '..'
 import { Card, CoinItem, DisplayCoin } from '..'
 import { PostResult } from './post'

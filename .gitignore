@@ -64,6 +64,6 @@ android/app/release/
 android/*.hprof
 
 # Auto generated expo
-android/app/src/main/java/money/terra/station/generated/BasePackageList.java
+android/app/src/main/java/net/terrarebels/station/generated/BasePackageList.java
 
 .scannerwork

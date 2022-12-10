@@ -81,7 +81,7 @@
         "Select wallet": "Wybierz portfel",
         "Access with ledger": "Dostęp z Ledger",
         "Browse with address": "Przeglądaj z adresem",
-        "Download Terra Station": "Pobierz Terra Station"
+        "Download Rebel Station": "Pobierz Rebel Station"
 
       },
 
@@ -96,7 +96,7 @@
         "Quickly glance through your address": "Szybko przejrzyj swój adres",
 
         "How can I create an wallet?": "Jak mogę stworzyć portfel?",
-        "If you want to create an wallet, please download <0>Terra Station for Windows/MacOS</0>. We don't support creating an wallet for Terra Station web due to the security reasons.": "Jeśli chcesz utworzyć portfel, pobierz <0>Terra Station dla systemu Windows/MacOS</0>. Nie obsługujemy tworzenia portfela dla sieci Terra Station ze względów bezpieczeństwa.",
+        "If you want to create an wallet, please download <0>Rebel Station for Windows/MacOS</0>. We don't support creating an wallet for Rebel Station web due to the security reasons.": "Jeśli chcesz utworzyć portfel, pobierz <0>Rebel Station dla systemu Windows/MacOS</0>. Nie obsługujemy tworzenia portfela dla sieci Rebel Station ze względów bezpieczeństwa.",
 
         "Connection required": "Połączenie wymagane",
         "This page shows data for a specific address. To access the page, please <0>connect</0>.": "Ta strona pokazuje dane dla określonego adresu. Aby uzyskać dostęp do strony, <0>połącz się</0>.",
@@ -118,7 +118,7 @@
 
         "{{word}} is an invalid word": "{{word}} jest niepoprawne",
         "What if I lost my seed phrase?": "Co jeśli zgubię mój klucz prywatny?",
-        "We cannot recover your information for you. If you lose your seed phrase it's GONE FOREVER. Terra Station does not store your mnemonic.": "Nie możemy odzyskać Twoich danych. Jeśli zgubisz swój klucz prywatny, to PRZEPADA ON NA ZAWSZE. Terra Station nie przechowuje twoich słów kluczowych.",
+        "We cannot recover your information for you. If you lose your seed phrase it's GONE FOREVER. Rebel Station does not store your mnemonic.": "Nie możemy odzyskać Twoich danych. Jeśli zgubisz swój klucz prywatny, to PRZEPADA ON NA ZAWSZE. Rebel Station nie przechowuje twoich słów kluczowych.",
         "I have securely <0>WRITTEN DOWN MY SEED</0>. I understand that lost seeds cannot be recovered.": "Bezpiecznie <0>ZAPISAŁEM SWÓJ KLUCZ</0>. Rozumiem, że utraconych kluczy nie można odzyskać.",
         "Select address to recover": "Wybierz adres do odzyskania",
         "Vested": "Nabyte",
@@ -126,14 +126,14 @@
         "Undelegated": "Nie oddelegowane",
         "No balance": "Brak środków",
         "Wallet recovered successfully!": "Portfel odzyskany pomyślnie!",
-        "Welcome back to Terra Station.": "Witamy ponownie na Terra Station.",
+        "Welcome back to Rebel Station.": "Witamy ponownie na Rebel Station.",
 
         "Confirm your seed": "Potwierdź swój klucz prywatny",
         "{{index}} word": "{{index}} słowo",
         "Select or type": "Wybierz lub wpisz",
         "Create a wallet": "Stwórz portfel",
         "Wallet created!": "Stowrzono portfel!",
-        "Welcome aboard to Terra Station.": "Witamy na Terra Station.",
+        "Welcome aboard to Rebel Station.": "Witamy na Rebel Station.",
         "Explore the Terra Network": "Explorez le réseau Terra"
       },
 

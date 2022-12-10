@@ -1,13 +1,13 @@
 //
 //  TamperChecker.m
-//  TerraStation
+//  RebelStation
 //
 //  Created by Henry on 2021/06/21.
 //
 
 #import <Foundation/Foundation.h>
 #import "TamperChecker.h"
-#import "TerraStation-Swift.h"
+#import "RebelStation-Swift.h"
 
 @implementation TamperChecker
 

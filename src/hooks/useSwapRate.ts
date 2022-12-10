@@ -1,4 +1,4 @@
-import { Coin } from '@terra-money/terra.js'
+import { Coin } from '@terra-rebels/terra.js'
 import { UTIL } from 'consts'
 import { uToken } from 'types'
 import useLCD from './useLCD'

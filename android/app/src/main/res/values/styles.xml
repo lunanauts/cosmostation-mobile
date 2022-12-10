@@ -6,7 +6,7 @@
     </style>
 
     <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:colorBackground">#2043b5</item>
-        <item name="android:colorPrimaryDark">#2043b5</item>
+        <item name="android:colorBackground">#1a1a1a</item>
+        <item name="android:colorPrimaryDark">#1a1a1a</item>
     </style>
 </resources>

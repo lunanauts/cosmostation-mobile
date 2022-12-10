@@ -24,7 +24,7 @@ export default (link: string): SharePage => {
     {
       key: 'mail',
       label: t('Page:Mail'),
-      href: 'mailto:?subject=From Terra Station&body=' + link,
+      href: 'mailto:?subject=From Rebel Station&body=' + link,
     },
   ]
 

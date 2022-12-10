@@ -21,7 +21,7 @@ import {
   MsgDelegate,
   MsgUndelegate,
   AccAddress,
-} from '@terra-money/terra.js'
+} from '@terra-rebels/terra.js'
 import { QueryObserverBaseResult } from 'react-query'
 import { useIsClassic } from 'lib'
 import { getFindMoniker } from '../../qureys/staking'

@@ -1,10 +1,10 @@
-# Terra Station Mobile App
+# Rebel Station Mobile App
 
-![banner](./terra-station-mobile.png)
+![banner](./rebel-station.png)
 
-**Terra Station Mobile** is an application to interact with [Terra Core](https://github.com/terra-money/core).
+**Rebel Station Mobile** is an application to interact with [Terra Core](https://github.com/terra-rebels/core).
 
-Terra Station Mobile allows users to:
+Rebel Station Mobile allows users to:
 
 - Create wallets and send tokens
 - Get involved with staking, by browsing through validator information and delegating Luna tokens
@@ -13,7 +13,7 @@ Terra Station Mobile allows users to:
 
 ## App Scheme
 
-### Send ( terrastation://send/?payload=${base64 json} )
+### Send ( rebelstation://send/?payload=${base64 json} )
 ```
 // payload json
 {
@@ -24,7 +24,7 @@ Terra Station Mobile allows users to:
 }
 ```
 
-### WalletConnect - Connect ( terrastation://walletconnect_connect/?payload=${base64 json} )
+### WalletConnect - Connect ( rebelstation://walletconnect_connect/?payload=${base64 json} )
 ```
 // payload json
 {
@@ -32,7 +32,7 @@ Terra Station Mobile allows users to:
 }
 ```
 
-### WalletConnect - Confirm ( terrastation://walletconnect_confirm/?payload=${base64 json} )
+### WalletConnect - Confirm ( rebelstation://walletconnect_confirm/?payload=${base64 json} )
 ```
 // tx: CreateTxOptions in terra.js
 const params = {
@@ -100,4 +100,4 @@ $ npm run [ios|android]
 
 This software is licensed under the Apache 2.0 license. Read more about it [here](./LICENSE).
 
-© 2021 Terra Station Mobile
+© 2023 Rebel Station Mobile
