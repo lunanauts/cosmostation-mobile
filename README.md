@@ -1,10 +1,4 @@
-# Rebel Station Mobile App
-
-![banner](./rebel-station.png)
-
-**Rebel Station Mobile** is an application to interact with [Terra Core](https://github.com/terra-rebels/core).
-
-Rebel Station Mobile allows users to:
+ CosmoStation Mobile allows users to:
 
 - Create wallets and send tokens
 - Get involved with staking, by browsing through validator information and delegating Luna tokens
